@@ -1,0 +1,228 @@
+extends _layouts/base
+
+include _modules/link/link
+include _modules/vignette/vignette
+
+
+block content
+        //header
+        div(data-sticky-container='')
+            .sticky.title-bar(data-sticky='', data-options='marginTop:0;', style='width:100%')
+                .title-bar-left
+                    a(href='')
+                        img(src='images/assets/logo_bordeau_white.svg', width='100px', alt='')
+                .title-bar-right
+                    ul.menu.align-right
+                        li
+                            a(href='#')
+                                img(src='images/assets/facebook.png', alt='')
+                        li
+                            a(href='#')
+                                img(src='images/assets/linkedin.png', alt='')
+                        li
+                            a(href='#')
+                                img(src='images/assets/twitter.png', alt='')
+        // Bandeau D & You
+        #dyou
+            .row.align-center.align-middle
+                .columns.small-4.text-center
+                    img(src='images/assets/logo_bordeau_white.svg', width='250')
+                    h1 CHANGE THE CODE
+        // Clients
+        section
+            .headband.row
+                .shrink.columns
+                    h2
+                        | CLIENTS
+                        img(src='images/assets/clients_title.svg', alt='')
+                .columns
+                    hr
+            .row
+                .column.small-12
+                    .row.align-center
+                        .small-3.logos.text-center
+                            img(src='images/assets/axa.svg', alt='')
+                        .small-3.logos.text-center
+                            img(src='images/assets/societe_generale.svg', alt='')
+                        .small-3.logos.text-center
+                            img(src='images/assets/bnp.svg', alt='')
+                        .small-3.logos.text-center
+                            img(src='images/assets/SNCF.svg', alt='')
+                        .small-3.logos.text-center
+                            img(src='images/assets/seloger.png', alt='')
+                        .small-3.logos.text-center
+                            img(src='images/assets/deezer.svg', alt='')
+                        .small-3.logos.text-center
+                            img(src='images/assets/Le_Monde.svg', alt='')
+                        .small-3.logos.text-center
+                            img(src='images/assets/fdj.svg', alt='')
+                        .small-3.logos.text-center
+                            img(src='images/assets/molotov.png', alt='')
+                        .small-3.logos.text-center
+                            img(src='images/assets/backelite.png', alt='')
+                        .small-3.logos.text-center
+                            img(src='images/assets/docapost.png', alt='')
+                        .small-3.logos.text-center
+                            img(src='images/assets/docker.png', alt='')
+        // Technologies
+        section
+            .headband.row
+                .columns
+                    hr
+                .shrink.columns
+                    h2
+                        | TECHNOLOGIES
+                        img(src='images/assets/technologies_title.svg', alt='')
+            #technologies.row
+                .column.small-12
+                    .row.align-center
+                        .small-3.logos.text-center.align-middle.align-center
+                            img(src='images/assets/axa.svg', alt='')
+                            h4 AXA
+                        .small-3.logos.text-center.align-middle.align-center
+                            img(src='images/assets/societe_generale.svg', alt='')
+                            h4 SG
+                        .small-3.logos.text-center.align-middle.align-center
+                            img(src='images/assets/bnp.svg', alt='')
+                            h4 BNP
+                        .small-3.logos.text-center.align-middle.align-center
+                            img(src='images/assets/SNCF.svg', alt='')
+                            h4 SNCF
+        // Suivez-nous
+        section
+            .headband.row
+                .columns
+                    hr
+                .shrink.columns
+                    h2
+                        | SUIVEZ-NOUS
+                        img(src='images/assets/suivez-nous_title.svg', alt='')
+            .row
+                .column.small-12
+                    .row
+                        .vignette-container.small-6.medium-3.large-2
+                            .vignette
+                                .logo-twitter
+                                    img(src='images/assets/twitter.svg', alt='')
+                                div
+                                    img(src='images/assets/ypEqG_7s.jpg', alt='')
+                                a(href='') Nous accueillerons le prochain Meetup #E...
+                        .vignette-container.small-6.medium-3.large-2
+                            .vignette
+                                .logo-twitter
+                                    img(src='images/assets/twitter.svg', alt='')
+                                div
+                                    img(src='images/assets/ypEqG_7s.jpg', alt='')
+                                a(href='') #AngularJS Controller As Syntax : https:...
+                        .vignette-container.small-6.medium-3.large-2
+                            .vignette
+                                .logo-twitter
+                                    img(src='images/assets/twitter.svg', alt='')
+                                div
+                                    img(src='images/assets/ypEqG_7s.jpg', alt='')
+                                a(href='') Nous accueillerons le prochain Meetup #E...
+                        .vignette-container.small-6.medium-3.large-2
+                            .vignette
+                                .logo-twitter
+                                    img(src='images/assets/twitter.svg', alt='')
+                                div
+                                    img(src='images/assets/ypEqG_7s.jpg', alt='')
+                                a(href='') Nous accueillerons le prochain Meetup #E...
+                        .vignette-container.small-6.medium-3.large-2
+                            .vignette
+                                .logo-twitter
+                                    img(src='images/assets/twitter.svg', alt='')
+                                div
+                                    img(src='images/assets/ypEqG_7s.jpg', alt='')
+                                a(href='') Nous accueillerons le prochain Meetup #E...
+                        .vignette-container.small-6.medium-3.large-2
+                            .vignette
+                                .logo-twitter
+                                    img(src='images/assets/twitter.svg', alt='')
+                                div
+                                    img(src='images/assets/ypEqG_7s.jpg', alt='')
+                                a(href='') Nous accueillerons le prochain Meetup #E...
+                        .vignette-container.small-6.medium-3.large-2
+                            .vignette
+                                .logo-twitter
+                                    img(src='images/assets/twitter.svg', alt='')
+                                div
+                                    img(src='images/assets/ypEqG_7s.jpg', alt='')
+                                a(href='') Nous accueillerons le prochain Meetup #E...
+                        .vignette-container.small-6.medium-3.large-2
+                            .vignette
+                                .logo-twitter
+                                    img(src='images/assets/twitter.svg', alt='')
+                                div
+                                    img(src='images/assets/ypEqG_7s.jpg', alt='')
+                                a(href='') #AngularJS Controller As Syntax : https:...
+                        .vignette-container.small-6.medium-3.large-2
+                            .vignette
+                                .logo-twitter
+                                    img(src='images/assets/twitter.svg', alt='')
+                                div
+                                    img(src='images/assets/ypEqG_7s.jpg', alt='')
+                                a(href='') Nous accueillerons le prochain Meetup #E...
+                        .vignette-container.small-6.medium-3.large-2
+                            .vignette
+                                .logo-twitter
+                                    img(src='images/assets/twitter.svg', alt='')
+                                div
+                                    img(src='images/assets/ypEqG_7s.jpg', alt='')
+                                a(href='') Nous accueillerons le prochain Meetup #E...
+                        .vignette-container.small-6.medium-3.large-2
+                            .vignette
+                                .logo-twitter
+                                    img(src='images/assets/twitter.svg', alt='')
+                                div
+                                    img(src='images/assets/ypEqG_7s.jpg', alt='')
+                                a(href='') Nous accueillerons le prochain Meetup #E...
+                        .vignette-container.small-6.medium-3.large-2
+                            .vignette
+                                .logo-twitter
+                                    img(src='images/assets/twitter.svg', alt='')
+                                div
+                                    img(src='images/assets/ypEqG_7s.jpg', alt='')
+                                a(href='') Nous accueillerons le prochain Meetup #E...
+                        +vignette('images/assets/ypEqG_7s.jpg', 'Nous accueillerons...')
+        // Temoignage de devs
+        section#testimony
+            .headband.row
+                .shrink.columns
+                    h2
+                        | TEMOIGNAGES DE DEVS
+                        img(src='images/assets/temoignages_title.svg', alt='')
+                .columns
+                    hr
+            .row
+                .column.small-12
+                    .row.align-center
+                        .small-3.medium-4.large-6.text-left
+                            img.float-left(src='images/assets/camille.png', alt='')
+                            h3 LE PROJET DE MES REVES
+                            q
+                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius explicabo fuga magni ratione
+                                | suscipit. Aspernatur assumenda esse magni maxime ?
+                            p
+                        .small-3.medium-4.large-6.text-left
+                            img.float-left(src='images/assets/charles.png', alt='')
+                            h3 J'AI PU PASSER A REACT
+                            q
+                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis provident quia
+                                | reprehenderit sit? Adipisci architecto cupiditate !
+                            p
+                        .small-3.medium-4.large-6.text-left
+                            img.float-left(src='images/assets/jp.png', alt='')
+                            h3 UNE SUPER EQUIPE
+                            q
+                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus error eveniet ipsa minima
+                                | mollitia praesentium quo, soluta tempore vero !
+                            p
+                        .small-3.medium-4.large-6.text-left
+                            img.float-left(src='images/assets/zach.png', alt='')
+                            h3 DES FORMATIONS INCROYABLES
+                            q
+                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi harum in ipsum repudiandae
+                                | vitae! Accusamus ad, aliquam architecto, cumque .
+                            p
+

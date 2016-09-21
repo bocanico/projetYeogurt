@@ -1,0 +1,9 @@
+mixin vignette(imageUrl, text)
+
+  .vignette-container.small-6.medium-3.large-2
+    .vignette
+      .logo-twitter
+        img(src='images/assets/twitter.svg', alt='')
+      div
+        img(src="#{imageUrl}", alt='')
+      a(href='')= text
