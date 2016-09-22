@@ -1,4 +1,6 @@
 @import '../../node_modules/foundation-sites/scss/foundation';
+@import '../_modules/vignette/vignette';
+
 
 // @include foundation-grid;
 @include foundation-everything(true);
@@ -81,42 +83,4 @@ section {
 
 
 
-.vignette {
-  position: relative;
-  margin: 8px 4px;
-  padding: 10px;
-  border: 1px solid black;
-}
-
-.vignette a {
-  font-family: Nevo,sans-serif;
-  font-size: .8rem;
-  text-align: center;
-  font-weight: 700;
-  color: #000;
-}
-
-.logo-twitter img {
-  width: 40px;
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-
-#testimony {
-  img {
-    width: 140px;
-    margin-right: 20px;
-  }
-
-  h3 {
-    text-transform: uppercase;
-    font-weight: 200;
-    font-size: 1.5625rem;
-  }
-
-  q {
-    font-size: 16px;
-  }
-}
 

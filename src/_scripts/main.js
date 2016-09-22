@@ -3,16 +3,17 @@
 
 'use strict';
 
-// import $ from 'jquery';
-// import Link from '../_modules/link/link';
-//
-// $(() => {
-//   new Link(); // Activate Link modules logic
-//   console.log('Welcome to Yeogurt!');
-// });
+import $ from '../../node_modules/jquery';
+import Link from '../_modules/link/link';
+import Vignette from '../_modules/vignette/vignette';
 
-var $ = require("../../node_modules/foundation-sites/vendor/jquery/dist/jquery.min.js");
-window.jQuery = $;
+$(() => {
+  new Link(); // Activate Link modules logic
+  console.log('Welcome to Yeogurt!');
+  new Vignette();
+});
+
+window.jQuery = $;// foundation ne reconnait pas $ nativement
 
 require('../../node_modules/foundation-sites/dist/foundation.min.js');
 

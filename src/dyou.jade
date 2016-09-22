@@ -226,3 +226,12 @@ block content
                                 | vitae! Accusamus ad, aliquam architecto, cumque .
                             p
 
+
+        //- var foo = book.name + " world"
+        //h1= foo
+
+        //h1= site.data.global.siteName //- Sample
+        ul
+            each val in site.data.dyou
+                li= val.name
+        +link({})
